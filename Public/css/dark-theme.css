@@ -1,0 +1,22 @@
+.blue .navtheme .linktheme:hover {
+  background-color: #0e0cac;
+}
+
+.blue .navtheme {
+background-color: #0833bd;
+}
+
+
+.blue .buttontheme .linktheme {
+color: black;
+background-color: #072279;
+}
+
+
+.blue .navtheme .active{
+background-color: #04549e;
+}
+
+.blue {
+background-color:#0962c9;
+}
