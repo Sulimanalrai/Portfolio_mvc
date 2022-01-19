@@ -8,7 +8,7 @@
             <ul class="menu">
                 <li><a href="index.php" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="/Projecten" class="menu-btn">Projecten</a></li>
+                <li><a href="/projects.php" class="menu-btn">Projecten</a></li>
                 <li><a href="#skills" class="menu-btn">Vaardigheden</a></li>
                 <li><a href="#CV" class="menu-btn">CV</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
