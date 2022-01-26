@@ -15,7 +15,7 @@
   <!-- Navbar -->
   <?php include_once "defaults/menu.php";  ?>
    <!-- Projects -->
-   <h1 class="title_prj">Projects</h1>
+   <h1 id="proj" class="title_prj">Projects</h1>
   <p class="mini_title_prj">here are a few projects i've worked on </p>
  <?php
     foreach ($project as $data): ?>

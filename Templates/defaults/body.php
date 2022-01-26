@@ -28,6 +28,43 @@
             </div>
         </div>
     </section>
+ 
+     <!-- projecten section start -->
+
+    <section class="proj" id="proj">
+        <div class="max-width">
+            <div id='proj' class='project-img text-center'>
+            <h2 class="title" id= "titleCv">PROJECTEN</h2>
+            <div class="about-content">
+    <?php
+
+
+$r = getProject1();
+// var_dump($r);
+
+foreach ($r as $data) {
+
+  ///////////////////////
+  echo "<div class='projects_section'>";
+  echo "<div class='all_projects'>";
+  echo "<div class='project'>";
+  echo "<img src=" . $data->image . " width='300px'>";
+  echo "<div class='project_01_presentation'>";
+  echo "<h3>" . $data->name . "</h3>";
+  echo "<p>" . $data->discription . "</p>";
+  echo "<a href=" . $data->link . "> <input id='btn'  type='button' value='See'> </a>";
+  echo "</div>";
+  echo "</div>";
+  echo "</div>";
+  echo "</div>";
+}
+
+
+
+?>
+</div>
+</div>
+</section>
    
                  <!-- Vaardigheden section start -->
      <section class="skills" id="skills">
@@ -105,30 +142,9 @@
             </div>
         </div>
     </section>
-    <?php
 
 
-$r = getProject1();
-// var_dump($r);
-
-foreach ($r as $data) {
-
-  ///////////////////////
-  echo "<div class='projects_section'>";
-  echo "<div class='all_projects'>";
-  echo "<div class='project'>";
-  echo "<img src=" . $data->image . " width='300px'>";
-  echo "<div class='project_01_presentation'>";
-  echo "<h3>" . $data->name . "</h3>";
-  echo "<p>" . $data->discription . "</p>";
-  echo "<a href=" . $data->link . "> <input id='btn'  type='button' value='See'> </a>";
-  echo "</div>";
-  echo "</div>";
-  echo "</div>";
-  echo "</div>";
-}
+    
 
 
-
-?>
    

@@ -28,7 +28,9 @@
                     </div>
                 </div>
             </section>
-<div class="contatct_container">
+<div class="max-width">
+            <div class="row">
+<div class="col-12">
     <form class="form_container">
         <input id="name" class="input" name="name" type="text" placeholder="Naam" size="30"><br>
         <input id="email" class="input" name="email" type="text" placeholder="E-mail adres" size="30"><br>
@@ -38,6 +40,8 @@
     </form>
     
 
+</div>
+</div>
 </div>
 <div class="php_notif" style="margin: 0 auto; text-align:center">
     <?php
