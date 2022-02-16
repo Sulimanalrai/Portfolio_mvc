@@ -670,7 +670,7 @@ footer span a:hover{
 }
 
 #titleCv {
-    color: #fff;
+    color: #111;
 }
 
 #siklls color {
@@ -681,6 +681,17 @@ footer span a:hover{
     margin-left: 200px !important;
 }
 
-#projecten{
-    background-color: #111;
+.Projecten, .CV{
+    background: #111;
+}
+
+.projecten-con{
+    display: flex;
+    flex-direction: row;
+    
+}
+.project img{
+
+    width: 300px;
+    height: 400px;
 }

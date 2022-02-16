@@ -42,6 +42,8 @@
 $r = getProject1();
 // var_dump($r);
 
+echo "<div class='projecten-con'>";
+
 foreach ($r as $data) {
 
   ///////////////////////
@@ -59,7 +61,7 @@ foreach ($r as $data) {
   echo "</div>";
 }
 
-
+echo "</div>";
 
 ?>
 </div>
