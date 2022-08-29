@@ -23,7 +23,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Suliman Alrai <span class="typing-2"></span></div>
-                    <p>Ik ben Suliman Alrai en ik ben 18 jaar oud. Ik volg nu Software Developer Niveau 4 opleiding op het ROC Mondriaan. Mijn hobbies zijn Lezen, Gamen, sporten en films kijken.  </p>
+                    <p>Ik ben Suliman Alrai en ik ben 19 jaar oud. Ik volg nu Software Developer Niveau 4 opleiding op het ROC Mondriaan. Mijn hobbies zijn Lezen, Gamen, sporten en films kijken.  </p>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ echo "</div>";
                 <div class="skills-content">
                     <div class="column left">
                         <div class="text">Mijn creatieve vaardigheden en ervaringen.</div>
-                        <p>Momenteel heb ik niet genoeg programmeer ervaring, de reden is dat ik in mijn tweede jaar programmeertalen gebruik zoals HTML, Css, C#, Js, Bootstrap, etc.</p>
+                        <p>Ik heb deze opleiding gekozen,want ik vind ICT een goede domain en in de toekomst zal nieuw banen ontstaan. In deze fase probeer ik een leven op te bouwn in Nederland. En wil ik mij graag ontwikkelen in Nederland.</p>
                     </div>
                     <div class="column right">
                         <div class="bars">
@@ -136,8 +136,7 @@ echo "</div>";
             <h2 class="title" id= "titleCv">CV</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/suliman.jpg" width="30%" alt="ik">
-                    <img src="images/suli.jpg" width="30%" alt="ik">
+                    <img src="images/cva.png" width="30%" alt="ik">
                 </div>
                 <div class="column">
                 </div>
